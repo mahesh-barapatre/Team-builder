@@ -1,6 +1,7 @@
 # Team Builder
 
-This project is a web application built with React that allows users to upload an Excel file with three sheets: Developer, Business Analyst, and QA. The application then creates teams of 2 Developers, 2 Business Analysts, and 1 QA, and generates a PDF with the team information.
+This project is a web application built with React that allows users to upload an Excel file with three sheets: Developer, Business Analyst, and QA. The application then creates teams of-
+3 Developers, 1 Business Analysts, and 1 Data Analyst, and generates a PDF with the team information.
 
 ## Table of Contents
 
@@ -38,37 +39,7 @@ This project is a web application built with React that allows users to upload a
     npm install
     ```
 
-3. Install Tailwind CSS:
-
-    ```bash
-    npm install -D tailwindcss postcss autoprefixer
-    npx tailwindcss init -p
-    ```
-
-4. Configure `tailwind.config.js`:
-
-    ```javascript
-    /** @type {import('tailwindcss').Config} */
-    module.exports = {
-      content: [
-        "./src/**/*.{js,jsx,ts,tsx}",
-      ],
-      theme: {
-        extend: {},
-      },
-      plugins: [],
-    }
-    ```
-
-5. Add Tailwind CSS to your `src/index.css` file:
-
-    ```css
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
-    ```
-
-6. Start the development server:
+3. Start the development server:
 
     ```bash
     npm start
@@ -78,7 +49,7 @@ This project is a web application built with React that allows users to upload a
 
 1. Open the application in your browser (usually at `http://localhost:3000`).
 
-2. Upload an Excel file with three sheets named `Developer`, `Business Analyst`, and `QA`.
+2. Upload an Excel file with three sheets named `Developer`, `Business Analyst`, and `Data Analyst`.
 
 3. Click on the "Generate PDF" button to create and download the PDF with team information.
 
