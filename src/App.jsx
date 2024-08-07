@@ -7,7 +7,7 @@ function App() {
       <div className="bg-white shadow-md rounded-lg p-6 w-11/12 max-w-md">
         <h1 className="text-3xl font-bold text-center mb-6">Team Builder</h1>
         <p className="text-center text-gray-700 mb-6">
-          Upload an Excel file with{" "}
+          Upload an {" "}
           <strong>Excel file with three sheets </strong>
           named <strong>Developer</strong>,<strong>Business Analyst</strong>,
           and <strong>Data Analyst</strong>. The application will create teams
